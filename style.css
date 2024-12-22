@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: #332f2f;
+  color: white;
+  overflow: hidden;
+}
+
+#parameters {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#parameters .title {
+  font-size: 30px;
+  font-weight: 600;
+}
+#parameters input,
+#ui input {
+  width: 50px;
+}
+#parameters > div {
+  margin-bottom: 10px;
+}
+#ui {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background-color: #332f2f;
+}
+
+canvas {
+  background-color: #332f2f;
+}
+.credit {
+  position: absolute;
+  left: 5px;
+  bottom: 2px;
+}
+.github {
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+  text-align: right;
+  font-size: 15px;
+}
+.github a {
+  color: rgb(30, 100, 213);
+}

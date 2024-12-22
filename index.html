@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="script.js"></script>
+    <title>Jeu de la vie</title>
+  </head>
+  <body>
+    <div id="parameters">
+      <div class="title">Welcome in "Le Jeu de la Vie"</div>
+      <div>
+        Box's size :
+        <input id="caseSize" type="number" min="1" value="30" /> (in px)
+      </div>
+      <!-- <div>Fill all the cases like you want or generate randomly</div>
+      <div>
+        Generate randomly :
+        <input id="random" type="checkbox" />
+      </div> -->
+      <button id="start">Start the simulation</button>
+    </div>
+    <div id="ui">
+      <div>
+        Time each step :
+        <input id="time" type="number" min="0" value="1" /> seconde(s)
+      </div>
+      <div>Step : <label id="step">0</label></div>
+      <button id="play">PLAY</button>
+      <button id="nextStep">Next Step</button>
+    </div>
+    <div class="credit">by PLB</div>
+    <div class="github">
+      <a href="" target="_blank">Open Source Project</a><br />Improve it
+      together
+    </div>
+  </body>
+</html>
